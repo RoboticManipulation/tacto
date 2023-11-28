@@ -42,6 +42,16 @@ This package contain several components:
 2) An API to simulate vision-based tactile sensors in PyBullet.
 3) Mesh models and configuration files for the [DIGIT](https://digit.ml) and Omnitact sensors.
 
+## Compability errors
+I have encountered some compability errors and have not found a working configuration after trying different python versions from  `python 3.7 - 3.10` - since they are using many libraries which are not longer maintained. In order to make it working I decided to adapt the corresponding libraries for python3.10 and I have added the venv folder to the git. Make sure to look at your `.gitignore` file before pushing von this branch. 
+
+Before running, source your environment via: 
+
+```
+source venv/bin/activate
+
+```
+
 ## Usage
 
 Additional packages ([torch](https://github.com/pytorch/pytorch), [gym](https://github.com/openai/gym), [pybulletX](https://github.com/facebookresearch/pybulletX)) are required to run the following examples.
