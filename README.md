@@ -51,6 +51,15 @@ Before running, source your environment via:
 source venv/bin/activate
 
 ```
+Then you have to go in the examples folder: 
+```
+cd examples/
+```
+Then you can run for example: 
+
+```
+python3 ./demo_pybullet_digit.py
+```
 
 ## Usage
 
